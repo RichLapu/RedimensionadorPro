@@ -6,8 +6,23 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Redimensionador de Imagens",
-  description: "Processamento 100% no seu navegador.",
+  title: "Redimensionador Pro | Otimização de Imagens no Browser",
+  description: "Redimensione, comprima, recorte e adicione marcas d'água em lote. Processamento rápido, seguro e 100% privado diretamente no seu navegador.",
+  keywords: ["redimensionar imagem", "compressão", "marca d'água", "crop", "processamento em lote", "Next.js", "React", "Portfólio"],
+  authors: [{ name: "Richard Lapuente", url: "https://www.linkedin.com/in/richard-lapuente/" }],
+  openGraph: {
+    title: "Redimensionador Pro | Otimização de Imagens",
+    description: "Redimensione, comprima, recorte e adicione marcas d'água em lote. Processamento 100% privado no seu navegador.",
+    url: "https://redimensionador-pro.vercel.app/",
+    siteName: "Redimensionador Pro",
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Redimensionador Pro | Otimização de Imagens",
+    description: "Processamento rápido e privado de imagens no navegador.",
+  },
 };
 
 export default function RootLayout({
@@ -16,7 +31,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // suppressHydrationWarning é necessário para o next-themes funcionar sem avisos
     <html lang="pt-BR" suppressHydrationWarning>
       <body className={`${inter.className} transition-colors duration-300 dark:bg-slate-950`}>
         <ThemeProvider>
