@@ -55,6 +55,6 @@ Pode testar a ferramenta a funcionar aqui: [https://redimensionador-pro.vercel.a
 
 Richard Lapuente
 
-LinkedIn: linkedin.com/in/richard-lapuente
+LinkedIn: [linkedin.com/in/richard-lapuente](https://www.linkedin.com/in/richard-lapuente/)
 
 GitHub: @RichLapu
